@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhonePe Payment App (Demo)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form>
+      <h3 class="title">Send Money</h3>
+      <div class="inputBox">
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" placeholder="Enter recipient number" required>
+      </div>
+      <div class="inputBox">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount" required>
+      </div>
+      <div class="inputBox">
+        <label for="note">Note (optional):</label>
+        <input type="text" id="note" placeholder="Add a note">
+      </div>
+      <div class="inputBox">
+        <label for="cardNum">Card Number:</label>
+        <input type="text" id="cardNum" placeholder="1111 2222 3333 4444" maxlength="19" required>
+      </div>
+      <input type="submit" value="Pay Now" class="submit_btn">
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
